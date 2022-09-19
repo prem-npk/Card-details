@@ -146,3 +146,42 @@
     margin-top: 30px;
     height: 30px;
 }
+@media screen and (max-width:600px){
+    .container form{
+        width:400px; 
+    }
+    .container form .inputBox input,
+    .container form .inputBox select{
+    width: 100%;
+    padding: 5px;
+    }
+    .container form .flexbox{
+        display: flex;
+        gap: 10px;
+    } 
+    .container form .submit-btn{
+        padding: 10px;
+        font-size: 10px;
+        width: 50px;
+        margin-left: 150px;
+    }
+    .container .card-container{
+        height: 200px;
+        width: 300px; 
+    }
+    .container .card-container .front .image{
+        padding-top: 5px;
+    }
+    .container .card-container .front .image img{
+        height: 25px; 
+    }
+    .container .card-container .back{
+        padding: 5px 0;
+    }
+    .container .card-container .back .stripe{
+        height: 30px;
+    }
+    .container .card-container .back .box .cvv-box{
+        height: 30px;
+    }
+}
